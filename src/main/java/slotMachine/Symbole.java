@@ -4,42 +4,48 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class Symbole {
-    private Multiplicateur multiplicateur;
-    private Image image;
-    private float spawnProbability;
+    protected String type;
+    private int multiplicateur;
+    private String image;
+    private double spawnProbability;
 
-    public Symbole(String nom, float spawnProbability, Multiplicateur multiplicateur, int taille, Image image) {
+    // Constructeur
+    public Symbole(String type , String image, double spawnProbability, int multiplicateur ) {
+        this.type = type;
         this.spawnProbability = spawnProbability;
         this.multiplicateur = multiplicateur;
         this.image = image;
     }
 
-
-    public float getSpawnProbability() {
+    //Getters
+    public double getSpawnProbability() {
         return spawnProbability;
     }
-
-    public Multiplicateur getMultiplicateur() {
+    public int getMultiplicateur() {
         return multiplicateur;
     }
-
-
-    public Image getImage() {
+    public String getImage() {
         return image;
     }
 
     // Setters
-
-    public void setSpawnProbability(float spawnProbability) {
+    public void setSpawnProbability(double spawnProbability) {
         this.spawnProbability = spawnProbability;
     }
-
-    public void setMultiplicateur(Multiplicateur multipliers) {
+    public void setMultiplicateur(int multipliers) {
         this.multiplicateur = multipliers;
     }
-
-
-    public void setImage(Image image) {
+    public void setImage(String image) {
         this.image = image;
     }
+
+    public void afficherSymbole() {
+        System.out.print("[" + this.type + "]");
+    }
+
+    public String getType() {
+        return this.type;
+    }
 }
+
+

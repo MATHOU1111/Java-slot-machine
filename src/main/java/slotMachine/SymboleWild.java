@@ -1,4 +1,6 @@
 package slotMachine;
+
+/*
 import java.util.HashMap;
 import javafx.scene.image.Image;
 public class SymboleWild extends Symbole {
@@ -6,4 +8,4 @@ public class SymboleWild extends Symbole {
         super(nom, spawnProbability, multipliers, taille, image);
     }
     // Ajouter des méthodes spécifiques si nécessaire
-}
+}*/
