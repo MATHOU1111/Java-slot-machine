@@ -1,21 +1,22 @@
 package slotMachine;
-/*
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class SlotMachine {
-    private Grille grille;
-    private int multiplicateurGain;
+    private List<GrilleDeJeu> listDesGrilles = new ArrayList();
+    private GestionDesGains gestionnaireDeGains;
+    private double soldeTotal;
 
-    public SlotMachine(Grille grille) {
-        this.grille = grille;
-        this.multiplicateurGain = 1;
-    }
+    public SlotMachine(int nombreDeGrilles, double soldeTotal) {
+        for(int i = 0; i < nombreDeGrilles; ++i) {
+            this.listDesGrilles.add(new GrilleDeJeu(5, 3));
+        }
 
-    public void tourner() {
-        // Générer aléatoirement les symboles dans la grille
-        grille.genererSymbolesAleatoires();
-    }
-
-    public void resetMultiplicateurGain() {
-        this.multiplicateurGain = 1;
+        this.gestionnaireDeGains = new GestionDesGains();
+        this.soldeTotal = soldeTotal;
     }
 }
-*/
+
+
+

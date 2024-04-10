@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="418c7ea4-7e3c-4b5d-bde2-2738605635a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/GestionDesGains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/GestionDesGains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/GrilleDeJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/GrilleDeJeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Multiplicateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Multiplicateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SlotMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Symbole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Symbole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFreeSpins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFreeSpins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleMega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleMega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleWild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleWild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/grille-jeu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/grille-jeu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/jeuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/jeuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type9.png" beforeDir="false" />
+    </list>
+    <list id="5516868a-2c3d-4022-998c-3844d5b2a684" name="Changes by 121" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../machine\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eMCuCOasNYRweZFEDlMHQzvLuN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Jeu.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "codePH",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pierr/Downloads/machine/machine/target/classes/slotMachine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalResources",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pierr\Downloads\machine\machine\target\classes\slotMachine" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pierr\Downloads\machine\machine\src\main\java\slotMachine" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Jeu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slotMachine.Jeu" />
+      <module name="machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slotMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Jeu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="418c7ea4-7e3c-4b5d-bde2-2738605635a8" name="Changes" comment="" />
+      <created>1711705283830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711705283830</updated>
+      <workItem from="1711705284771" duration="2589000" />
+      <workItem from="1712074088469" duration="214000" />
+      <workItem from="1712738477919" duration="8202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

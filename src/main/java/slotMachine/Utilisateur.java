@@ -4,16 +4,32 @@ public class Utilisateur {
     private int idUtilisateur;
     private String nomUtilisateur;
     private String motDePasse;
-    private int jetons;
-    private int freeSpins;
 
-    public Utilisateur(int idUtilisateur, String nomUtilisateur, String motDePasse) {
+    private Double tokens;
+
+    // Constructeur
+    public Utilisateur(int idUtilisateur, String nomUtilisateur, String motDePasse, Double tokens) {
         this.idUtilisateur = idUtilisateur;
         this.nomUtilisateur = nomUtilisateur;
         this.motDePasse = motDePasse;
-        this.jetons = 0;
-        this.freeSpins = 0;
+        this.tokens = tokens;
     }
 
-    // Implémenter les getters et les setters
+    // Getters
+    public String getUserName(){
+        return nomUtilisateur;
+    }
+
+    public double getBankAccount() {
+        return this.tokens;
+    }
+
+    public void ajouterCredits(double montant) {
+        this.tokens += montant;
+    }
+
+    public void retirerCredits(double montant) {
+        this.tokens -= montant;
+    }
+
 }

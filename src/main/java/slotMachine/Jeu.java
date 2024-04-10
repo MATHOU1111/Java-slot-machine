@@ -1,34 +1,22 @@
 package slotMachine;
 
+import java.io.IOException;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
-import java.util.List;
 
 public class Jeu extends Application {
-
-    @Override
-    public void start(Stage primaryStage) {
-        // Générer les symboles
-        List<Symbole> vueSymboles = SymboleFactory.genererSymboles();
-
-        // Afficher les informations de chaque symbole dans la console
-        afficherInformationsSymboles(vueSymboles);
+    public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(Jeu.class.getResource("grille-jeu.fxml"));
+        Scene scene = new Scene((Parent)fxmlLoader.load(), 1200.0, 900.0);
+        stage.setTitle("Casino!");
+        stage.setScene(scene);
+        stage.show();
     }
 
     public static void main(String[] args) {
         launch(args);
-    }
-
-    private void afficherInformationsSymboles(List<Symbole> vueSymboles) {
-        int numeroSymbole = 1;
-        for (Symbole symbole : vueSymboles) {
-            String nomSymbole = "S" + numeroSymbole;
-            double tauxApparition = symbole.getSpawnProbability();
-            String multiplicateurs = symbole.getMultiplicateur().toString();
-
-            System.out.println("Symbole " + nomSymbole + " : " + tauxApparition + "%" +
-                    " || " + multiplicateurs + " || ");
-            numeroSymbole++;
-        }
     }
 }
