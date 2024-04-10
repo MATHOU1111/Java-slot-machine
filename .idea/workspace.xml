@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="418c7ea4-7e3c-4b5d-bde2-2738605635a8" name="Changes" comment="" />
+    <list default="true" id="418c7ea4-7e3c-4b5d-bde2-2738605635a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Grille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/slotMachine/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/GrilleDeJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/GrilleDeJeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/grille-jeu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/grille-jeu.fxml" afterDir="false" />
+    </list>
     <list id="5516868a-2c3d-4022-998c-3844d5b2a684" name="Changes by 121" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -35,23 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Jeu.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;codePH&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pierr/Downloads/machine/machine/target/classes/slotMachine&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Jeu.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging codePH",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pierr/Downloads/machine/machine/target/classes/slotMachine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.externalResources",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pierr\Downloads\machine\machine\target\classes\slotMachine" />
@@ -99,6 +113,7 @@
       <workItem from="1712074088469" duration="214000" />
       <workItem from="1712738477919" duration="8202000" />
       <workItem from="1712750172044" duration="136000" />
+      <workItem from="1712750362322" duration="601000" />
     </task>
     <servers />
   </component>
