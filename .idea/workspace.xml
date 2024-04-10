@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="418c7ea4-7e3c-4b5d-bde2-2738605635a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/GestionDesGains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/GestionDesGains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/GrilleDeJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/GrilleDeJeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Multiplicateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Multiplicateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SlotMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Symbole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Symbole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFreeSpins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleFreeSpins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleMega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleMega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleWild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/SymboleWild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/grille-jeu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/grille-jeu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slotMachine/jeuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slotMachine/jeuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/type8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/type9.png" beforeDir="false" />
-    </list>
+    <list default="true" id="418c7ea4-7e3c-4b5d-bde2-2738605635a8" name="Changes" comment="" />
     <list id="5516868a-2c3d-4022-998c-3844d5b2a684" name="Changes by 121" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Jeu.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "codePH",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pierr/Downloads/machine/machine/target/classes/slotMachine",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.externalResources",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Jeu.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;codePH&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pierr/Downloads/machine/machine/target/classes/slotMachine&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pierr\Downloads\machine\machine\target\classes\slotMachine" />
@@ -129,6 +98,7 @@
       <workItem from="1711705284771" duration="2589000" />
       <workItem from="1712074088469" duration="214000" />
       <workItem from="1712738477919" duration="8202000" />
+      <workItem from="1712750172044" duration="136000" />
     </task>
     <servers />
   </component>
