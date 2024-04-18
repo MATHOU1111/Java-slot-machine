@@ -1,0 +1,48 @@
+.root{
+    -fx-background-image: url("images/background.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1200 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.vbox {
+    -fx-background-color: #1b79d9;
+}
+
+.combo-box {
+    -fx-background-image: url("images/Button2.png") ;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 20px;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-radius: 0;
+    -fx-border-width: 0;
+    -fx-pref-height: 50px;
+}
+
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: "";
+    -fx-background-radius: 0;
+    -fx-border-width: 0;
+}
+
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: transparent;
+}
+
+.error-zone{
+    -fx-background-image: url("images/ErrorZone.png") ;
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+

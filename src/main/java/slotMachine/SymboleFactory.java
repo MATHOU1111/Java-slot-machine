@@ -1,20 +1,72 @@
 package slotMachine;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.ArrayList;
 
 public class SymboleFactory {
-    // Création des symboles
-    private static final Symbole type0 = new Symbole("type0", "type0", 0.0359, 1);
-    private static final Symbole type1 = new Symbole("type1", "type1", 0.0479, 1);
-    private static final Symbole type2 = new Symbole("type2","type2", 0.0719, 1);
-    private static final Symbole type3 = new Symbole("type3", "type3" ,0.0103, 1);
-    private static final Symbole type4 = new Symbole("type4", "type4" ,0.1150, 1);
-    private static final Symbole type5 = new Symbole("type5", "type5",0.1438, 1);
-    private static final Symbole type6 = new Symbole("type6", "type6",0.1917, 1);
-    private static final Symbole type7 = new Symbole("type7", "type7",0.1917, 1);
-    private static final Symbole type8 = new Symbole("type8","type8", 0.1917, 1);
+    static List<Symbole> symboles = new ArrayList<>();
 
-    // Méthode pour obtenir tous les symboles avec leurs probabilités
-    public static Symbole[] genererSymboles() {
-        return new Symbole[]{type0, type1, type2, type3, type4, type5, type6, type7, type8};
+    static {
+        // Pour type0 (qui correspond à S1 dans votre tableau)
+        HashMap<Integer, Double> multipliers0 = new HashMap<>();
+        multipliers0.put(5, 20.0);
+        multipliers0.put(4, 10.0);
+        multipliers0.put(3, 4.0);
+        symboles.add(new Symbole("type0", "images/type0", 0.0360, new Multiplicateur(multipliers0)));
+
+        // Pour type1 (qui correspond à S2 dans votre tableau)
+        HashMap<Integer, Double> multipliers1 = new HashMap<>();
+        multipliers1.put(5, 10.0);
+        multipliers1.put(4, 5.0);
+        multipliers1.put(3, 2.5);
+        symboles.add(new Symbole("type1", "images/type1", 0.0479, new Multiplicateur(multipliers1)));
+
+        HashMap<Integer, Double> multipliers2 = new HashMap<>();
+        multipliers2.put(5, 6.0);
+        multipliers2.put(4, 3.0);
+        multipliers2.put(3, 1.5);
+        symboles.add(new Symbole("type2", "images/type2", 0.0719, new Multiplicateur(multipliers2)));
+
+        HashMap<Integer, Double> multipliers3 = new HashMap<>();
+        multipliers3.put(5, 5.0);
+        multipliers3.put(4, 3.0);
+        multipliers3.put(3, 0.6);
+        symboles.add(new Symbole("type3", "images/type3", 0.0103, new Multiplicateur(multipliers3)));
+
+        HashMap<Integer, Double> multipliers4 = new HashMap<>();
+        multipliers4.put(5, 4.0);
+        multipliers4.put(4, 2.0);
+        multipliers4.put(3, 0.4);
+        symboles.add(new Symbole("type4", "images/type4", 0.1150, new Multiplicateur(multipliers4)));
+
+        HashMap<Integer, Double> multipliers5 = new HashMap<>();
+        multipliers5.put(5, 3.0);
+        multipliers5.put(4, 1.2);
+        multipliers5.put(3, 0.28);
+        symboles.add(new Symbole("type5", "images/type5", 0.1438, new Multiplicateur(multipliers5)));
+
+        HashMap<Integer, Double> multipliers6 = new HashMap<>();
+        multipliers6.put(5, 2.4);
+        multipliers6.put(4, 0.8);
+        multipliers6.put(3, 0.2);
+        symboles.add(new Symbole("type6", "images/type6", 0.1917, new Multiplicateur(multipliers6)));
+
+        HashMap<Integer, Double> multipliers7 = new HashMap<>();
+        multipliers7.put(5, 2.0);
+        multipliers7.put(4, 0.6);
+        multipliers7.put(3, 0.16);
+        symboles.add(new Symbole("type7", "images/type7", 0.1917, new Multiplicateur(multipliers7)));
+
+        HashMap<Integer, Double> multipliers8 = new HashMap<>();
+        multipliers8.put(5, 1.6);
+        multipliers8.put(4, 0.4);
+        multipliers8.put(3, 0.12);
+        symboles.add(new Symbole("type8", "images/type8", 0.1917, new Multiplicateur(multipliers8)));
+    }
+
+    public static List<Symbole> genererSymboles() {
+        return symboles;
     }
 }
+

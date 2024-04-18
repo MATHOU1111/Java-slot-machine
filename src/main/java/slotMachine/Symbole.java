@@ -5,23 +5,28 @@ import javafx.scene.image.ImageView;
 
 public class Symbole {
     protected String type;
-    private int multiplicateur;
+    private Multiplicateur multiplicateur;
     private String image;
     private double spawnProbability;
 
+
+
     // Constructeur
-    public Symbole(String type , String image, double spawnProbability, int multiplicateur ) {
+    public Symbole(String type , String image, double spawnProbability, Multiplicateur multiplicateur ) {
         this.type = type;
         this.spawnProbability = spawnProbability;
         this.multiplicateur = multiplicateur;
         this.image = image;
     }
 
+
+
+
     //Getters
     public double getSpawnProbability() {
         return spawnProbability;
     }
-    public int getMultiplicateur() {
+    public Multiplicateur getMultiplicateur() {
         return multiplicateur;
     }
     public String getImage() {
@@ -32,7 +37,7 @@ public class Symbole {
     public void setSpawnProbability(double spawnProbability) {
         this.spawnProbability = spawnProbability;
     }
-    public void setMultiplicateur(int multipliers) {
+    public void setMultiplicateur(Multiplicateur multipliers) {
         this.multiplicateur = multipliers;
     }
     public void setImage(String image) {
